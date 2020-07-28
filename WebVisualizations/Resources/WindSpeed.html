@@ -1,0 +1,94 @@
+<!-- Declare the type of document we're sending -->
+<!DOCTYPE html>
+
+<!-- Declare the opening tag and the language-->
+<html lang="en-us">
+    <!-- Declare the start of metadata -->
+    <head>
+         <!-- Declare the character set encoding -->
+        <meta charset="UTF-8">
+
+        <!-- Declare the title for this website -->
+        <title> Wind Speed </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href = "reset.css">
+        <link rel="stylesheet" type="text/css" href = "style.css">
+    <!-- Declare the end of metadata -->
+    </head>
+
+<!-- Declare the main chunk of code -->
+<body>
+    <marquee behavior="slide" direction="left" loop=-1> <h1> This one's for Bob's love of MARQUEE </h1> </marquee>
+
+    <!-- Declare the navigation bar code -->
+    <nav class="navbar">
+        <ul>
+            <li >
+                <a href="..\index.html"> Latitude </a>
+            </li>
+        </ul>
+
+        <div class="btn-group">         
+            <ul>
+                <li >
+                    <a class="dropdown-options dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="MaxTemperature.html"> Max Temperature </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Humidity.html"> Humidity </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Cloudiness.html"> Cloudiness </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="WindSpeed.html"> Wind Speed </a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+                <li >
+                    <a class="dropdown-options" href="Comparisons.html"> Comparisons </a>
+                </li>
+                <li >
+                    <a class="dropdown-options" href="Data.html"> Data </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Declare the container code that houses the text and grahpics -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="box_one">
+                    <h1> Latitude vs. Wind Speed </h1>
+                    <img src=Assets\Images\Latitude-vs.-WindSpeed.png class="large_graphic" />
+                    <p> Based on the data extracted today, there is a no strong correlation between the latitude and wind speed. The northern hemisphere has relatively higher wind speeds than the southern hemisphere. Wind speeds of 0-15 mph have been observed across both hemispheres, irrespective of the latitude. It would be interesting to rerun this data set in a few months to observe influence of seasons on the various weather conditions.</p>
+                </div>
+            </div>
+    
+        <div class="col-md-5">
+            <div class="box_two">
+              <h2>Visualizations</h2>
+    
+                <a href="MaxTemperature.html">
+                    <img src=Assets\Images\Latitude-vs.-MaxTemperature.png class="small_graphic" />
+                </a>
+
+                <a href="Humidity.html">
+                    <img src=Assets\Images\Latitude-vs.-Humidity.png class="small_graphic" />
+                </a>
+
+                <a href="Cloudiness.html">
+                    <img src=Assets\Images\Latitude-vs.-Cloudiness.png class="small_graphic" />
+                </a>
+
+                <a href="WindSpeed.html" >
+                    <img src=Assets\Images\Latitude-vs.-WindSpeed.png class="small_graphic" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+<!-- Declare the closing body and html tags -->
+</body>
+</html>
