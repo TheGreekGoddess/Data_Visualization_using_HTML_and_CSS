@@ -1,5 +1,5 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
-https://thegreekgoddess.github.io/Web-Design-Challenge/
+https://thegreekgoddess.github.io/Data_Visualization_using_HTML_and_CSS/
 
 ## Background
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
